@@ -1,0 +1,10 @@
+Stations_ID;Stations_Name;Parameter;Von_Datum;Bis_Datum;Anzahl_Fehlwerte;Beschreibung;eor;                                                                                                              
+44;Groﬂenkneten;TT_TU;20.08.2022-20:00;21.08.2022-15:00;20;;eor;                                                                                                                                        
+44;Groﬂenkneten;TT_TU;13.12.2022-21:00;14.12.2022-13:00;17;;eor;                                                                                                                                        
+44;Groﬂenkneten;TT_TU;30.04.2023-09:00;02.05.2023-07:00;47;;eor;                                                                                                                                        
+44;Groﬂenkneten;TT_TU;08.05.2023-14:00;09.05.2023-16:00;27;;eor;                                                                                                                                        
+44;Groﬂenkneten;RF_TU;20.08.2022-20:00;21.08.2022-15:00;20;;eor;                                                                                                                                        
+44;Groﬂenkneten;RF_TU;13.12.2022-21:00;14.12.2022-13:00;17;;eor;                                                                                                                                        
+44;Groﬂenkneten;RF_TU;30.04.2023-09:00;02.05.2023-07:00;47;;eor;                                                                                                                                        
+44;Groﬂenkneten;RF_TU;08.05.2023-14:00;09.05.2023-16:00;27;;eor;                                                                                                                                        
+generiert: 07.02.2024 --  Deutscher Wetterdienst  --                                                                                                                                                    
