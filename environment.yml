@@ -1,0 +1,21 @@
+name: etl_renewables_weather
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
+  - jupyterlab
+  - ipython
+  - pymongo  # For MongoDB interactions
+  - sqlalchemy  # For MySQL interactions
+  - pymysql  # A dependency for MySQL
+  - requests  # For API requests
+  - scikit-learn 
+  - ipykernel
+
+
