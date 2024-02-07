@@ -12,6 +12,6 @@ This portfolio project aims to explore the integration and analysis of energy ge
 
 ## Technologies Used
 - **Databases**: MongoDB for unstructured data; MySQL for structured data.
-- **Programming**: Python, with libraries such as pandas for data processing.
+- **Programming**: Python, with libraries such as pandas for data processing. SQL to interact with the databases.
 
 
