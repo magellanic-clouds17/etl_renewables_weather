@@ -42,55 +42,41 @@ New approach below.
 
 # Remove rows from df_meta_laenge and df_meta_breite in a way that the remaining values of the 'geolaenge' and 'geobreite' columns are evenly distributed
 
-## Define the number of bins 
-num_bins = 110
+df = df_meta
 
-## Create bins for 'geolaenge' and 'geobreite'
-df['geolaenge_bin'] = pd.cut(df['geolaenge'], bins=num_bins, labels=range(num_bins))
-df['geobreite_bin'] = pd.cut(df['geobreite'], bins=num_bins, labels=range(num_bins))
+# Define the number of bins you want to divide your data into
+num_bins = 170
 
-## Define a function to select a row with the median value in each bin
-def select_median_row(group):
-    if group.empty:
-        return None 
-    # Proceed with your logic for non-empty groups
-    median_geolaenge = group['geolaenge'].median()
-    median_geobreite = group['geobreite'].median()
-    diff_laenge = (group['geolaenge'] - median_geolaenge).abs()
-    diff_breite = (group['geobreite'] - median_geobreite).abs()
-    idx_min_diff_laenge = diff_laenge.idxmin() if not diff_laenge.empty else None
-    idx_min_diff_breite = diff_breite.idxmin() if not diff_breite.empty else None
-    # Handling cases where idx_min_diff_* could be None
-    valid_idxs = [idx for idx in [idx_min_diff_laenge, idx_min_diff_breite] if idx is not None]
-    return group.loc[valid_idxs] if valid_idxs else None
+# Create bins for 'geolaenge' and 'geobreite'
+df['geolaenge_bin'] = pd.cut(df['geolaenge'], bins=num_bins, labels=False)
+df['geobreite_bin'] = pd.cut(df['geobreite'], bins=num_bins, labels=False)
 
-# Apply the function safely to each bin group
-# Using 'group_keys=False' to avoid adding an extra index layer
-median_sampled = df.groupby('geolaenge_bin', group_keys=False).apply(select_median_row).dropna(how='all')
+# Initialize a column to mark rows for retention
+df['retain'] = False
 
-# Since the selection is based on median, there's no need to separate by 'geolaenge' and 'geobreite' unless you want to prioritize one
+# Define a function to safely compute the closest index to the median within a bin
+def mark_closest_to_median(group, column):
+    if not group.empty:
+        median_value = group[column].median()
+        diff = (group[column] - median_value).abs()
+        # Safely get the index with the minimum difference
+        idx_min_diff = diff.idxmin()
+        df.at[idx_min_diff, 'retain'] = True
 
-# Cleanup: Remove the bin columns if they are no longer needed
-median_sampled.drop(['geolaenge_bin', 'geobreite_bin'], axis=1, inplace=True, errors='ignore')
+# Iterate over bins and mark the closest row to the median for retention
+for bin_label in range(num_bins):
+    # geolaenge
+    bin_group_laenge = df[df['geolaenge_bin'] == bin_label]
+    mark_closest_to_median(bin_group_laenge, 'geolaenge')
+    
+    # geobreite
+    bin_group_breite = df[df['geobreite_bin'] == bin_label]
+    mark_closest_to_median(bin_group_breite, 'geobreite')
 
-# median_sampled now contains your consistently distributed samples
+# Filter the DataFrame to keep only marked rows, preserving the original index
+filtered_df = df[df['retain']].drop(['geolaenge_bin', 'geobreite_bin', 'retain'], axis=1)
 
-# Apply the function to each bin group for both 'geolaenge' and 'geobreite'
-median_sampled_laenge = df.groupby('geolaenge_bin').apply(select_median_row).reset_index(drop=True)
-median_sampled_breite = df.groupby('geobreite_bin').apply(select_median_row).reset_index(drop=True)
+# filtered_df now contains the filtered rows with the original indices preserved
 
-# Combine the results by taking the unique entries to ensure no duplication
-combined_median_sampled = pd.concat([median_sampled_laenge, median_sampled_breite]).drop_duplicates()
-
-# Cleanup: Remove the bin columns
-combined_median_sampled.drop(['geolaenge_bin', 'geobreite_bin'], axis=1, inplace=True)
-
-# The combined_median_sampled DataFrame now contains rows that are more evenly distributed
-
-len(combined_median_sampled)
-combined_median_sampled.plot.scatter(x='geolaenge', y='geobreite', c='DarkBlue')
-
-df_station_sample_evenly_distributed = combined_median_sampled
-
-## save and use df_evenly_distributed as subsample of weather stations in germany
-df_station_sample_evenly_distributed.to_csv(r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\interim\df_sample_stations.csv")
+len(filtered_df)
+filtered_df.plot.scatter(x='geolaenge', y='geobreite', c='DarkBlue')
