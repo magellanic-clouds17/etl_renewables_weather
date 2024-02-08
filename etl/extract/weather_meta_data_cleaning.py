@@ -44,63 +44,6 @@ New approach below.
 
 df = df_meta
 
-## Define the number of bins 
-num_bins = 110
-
-## Create bins for 'geolaenge' and 'geobreite'
-df['geolaenge_bin'] = pd.cut(df['geolaenge'], bins=num_bins, labels=range(num_bins))
-df['geobreite_bin'] = pd.cut(df['geobreite'], bins=num_bins, labels=range(num_bins))
-
-## Define a function to select a row with the median value in each bin
-def select_median_row(group):
-    if group.empty:
-        return None 
-    # Proceed with the logic for non-empty groups
-    median_geolaenge = group['geolaenge'].median()
-    median_geobreite = group['geobreite'].median()
-    diff_laenge = (group['geolaenge'] - median_geolaenge).abs()
-    diff_breite = (group['geobreite'] - median_geobreite).abs()
-    idx_min_diff_laenge = diff_laenge.idxmin() if not diff_laenge.empty else None
-    idx_min_diff_breite = diff_breite.idxmin() if not diff_breite.empty else None
-    # Handling cases where idx_min_diff_* could be None
-    valid_idxs = [idx for idx in [idx_min_diff_laenge, idx_min_diff_breite] if idx is not None]
-    return group.loc[valid_idxs] if valid_idxs else None
-
-# Apply the function safely to each bin group
-# Using 'group_keys=False' to avoid adding an extra index layer
-median_sampled = df.groupby('geolaenge_bin', group_keys=False).apply(select_median_row).dropna(how='all')
-
-# Since the selection is based on median, there's no need to separate by 'geolaenge' and 'geobreite' unless you want to prioritize one
-
-# Cleanup: Remove the bin columns if they are no longer needed
-median_sampled.drop(['geolaenge_bin', 'geobreite_bin'], axis=1, inplace=True, errors='ignore')
-
-# median_sampled now contains your consistently distributed samples
-
-# Apply the function to each bin group for both 'geolaenge' and 'geobreite'
-median_sampled_laenge = df.groupby('geolaenge_bin').apply(select_median_row).reset_index(drop=True)
-median_sampled_breite = df.groupby('geobreite_bin').apply(select_median_row).reset_index(drop=True)
-
-# Combine the results by taking the unique entries to ensure no duplication
-combined_median_sampled = pd.concat([median_sampled_laenge, median_sampled_breite]).drop_duplicates()
-
-# Cleanup: Remove the bin columns
-combined_median_sampled.drop(['geolaenge_bin', 'geobreite_bin'], axis=1, inplace=True)
-
-# The combined_median_sampled DataFrame now contains rows that are more evenly distributed
-
-len(combined_median_sampled)
-combined_median_sampled.plot.scatter(x='geolaenge', y='geobreite', c='DarkBlue')
-
-df_station_sample_evenly_distributed = combined_median_sampled
-
-## save and use df_evenly_distributed as subsample of weather stations in germany
-df_station_sample_evenly_distributed.to_csv(r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\interim\df_sample_stations.csv")
-
-
-
-# Assuming df is your DataFrame
-'
 # Define the number of bins you want to divide your data into
 num_bins = 170
 

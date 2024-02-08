@@ -1,327 +1,273 @@
-,hoehe,geobreite,geolaenge,stationsname,bundesland
-0,202,50.7827,6.0941,Aachen                              ,Nordrhein-Westfalen   
-1,80,50.9593,6.0392,Geilenkirchen-Neutevern             ,Nordrhein-Westfalen   
-2,37,51.4942,6.2463,Geldern-Walbeck                     ,Nordrhein-Westfalen   
-4,3,55.0,6.3333,Nordseeboje 2                       ,Hamburg               
-5,0,54.1651,6.346,UFS TW Ems                          ,Hamburg               
-6,328,49.9445,6.3821,Olsdorf                             ,Rheinland-Pfalz       
-8,37,51.2897,6.4437,Tönisvorst                          ,Nordrhein-Westfalen   
-10,505,50.5014,6.5264,Kall-Sistig                         ,Nordrhein-Westfalen   
-12,132,49.7326,6.6131,Trier-Zewen                         ,Rheinland-Pfalz       
-13,110,50.8294,6.6601,Nörvenich-Niederbolheim             ,Nordrhein-Westfalen   
-14,24,51.5088,6.7018,Duisburg-Baerl                      ,Nordrhein-Westfalen   
-16,147,50.7119,6.7905,Weilerswist-Lommersum               ,Nordrhein-Westfalen   
-18,47,51.873,6.8863,Borken in Westfalen                 ,Nordrhein-Westfalen   
-20,627,50.3391,6.9501,Nürburg                             ,Rheinland-Pfalz       
-21,43,50.9894,6.9777,Köln-Stammheim                      ,Nordrhein-Westfalen   
-22,481,49.7619,7.0542,Deuselbach                          ,Rheinland-Pfalz       
-23,431,49.5281,7.0417,Selbach (Tholey)                    ,Saarland              
-24,319,49.2128,7.1077,Saarbrücken-Ensheim                 ,Saarland              
-25,62,50.7285,7.0839,Bonn                                ,Nordrhein-Westfalen   
-26,0,53.3707,7.2236,Emden-Wolthusen                     ,Niedersachsen         
-27,110,51.5026,7.2289,Bochum                              ,Nordrhein-Westfalen   
-28,22,52.5181,7.3081,Lingen                              ,Niedersachsen         
-29,345,51.18,7.2505,Remscheid-Lennep                    ,Nordrhein-Westfalen   
-30,203,51.3329,7.3412,Gevelsberg-Oberbröking              ,Nordrhein-Westfalen   
-31,195,50.8446,7.372,Neunkirchen-Seelscheid-Krawinkel    ,Nordrhein-Westfalen   
-32,0,54.1796,7.4587,UFS Deutsche Bucht                  ,Hamburg               
-33,60,51.5966,7.4048,Waltrop-Abdinghof                   ,Nordrhein-Westfalen   
-34,59,51.7663,7.5194,Lüdinghausen-Brochtrup              ,Nordrhein-Westfalen   
-36,96,50.3519,7.5906,Koblenz                             ,Rheinland-Pfalz       
-38,10,53.5503,7.6672,Wittmundhafen                       ,Niedersachsen         
-39,48,52.1344,7.6969,Münster/Osnabrück                   ,Nordrhein-Westfalen   
-40,271,49.4262,7.7557,Kaiserslautern                      ,Rheinland-Pfalz       
-42,115,49.8083,7.8458,"Münster am Stein, Bad               ",Rheinland-Pfalz       
-43,461,49.6468,7.8837,Ruppertsecken                       ,Rheinland-Pfalz       
-44,339,47.5619,7.9399,"Säckingen, Bad (Bergseestr.)        ",Baden-Württemberg     
-45,547,50.6621,7.9603,"Marienberg, Bad                     ",Rheinland-Pfalz       
-46,210,49.107,7.9967,"Bergzabern, Bad                     ",Rheinland-Pfalz       
-48,881,47.7004,8.1057,Dachsberg-Wolpadingen               ,Baden-Württemberg     
-49,120,51.7204,8.0577,Beckum-Unterberg                    ,Nordrhein-Westfalen   
-50,103,52.317,8.1694,Belm                                ,Niedersachsen         
-51,107,49.4719,8.1929,"Dürkheim, Bad                       ",Rheinland-Pfalz       
-52,230,50.5617,8.2386,Löhnberg-Obershausen                ,Hessen                
-53,240,48.727,8.2457,Baden-Baden-Geroldsau               ,Baden-Württemberg     
-54,38,52.5881,8.3424,Diepholz                            ,Niedersachsen         
-55,380,50.2596,8.3607,Waldems-Reinborn                    ,Hessen                
-56,96,49.2506,8.4422,Philippsburg KKW                    ,Baden-Württemberg     
-58,696,48.7968,8.4921,Dobel                               ,Baden-Württemberg     
-59,105,49.2445,8.5374,Waghäusel-Kirrlach                  ,Baden-Württemberg     
-60,41,52.4461,8.5906,Rahden-Kleinendorf                  ,Nordrhein-Westfalen   
-62,110,49.4206,8.6676,Heidelberg                          ,Baden-Württemberg     
-63,162,49.8809,8.6779,Darmstadt                           ,Hessen                
-64,135,52.1042,8.7521,"Salzuflen, Bad                      ",Nordrhein-Westfalen   
-65,149,50.3574,8.7506,"Nauheim, Bad                        ",Hessen                
-66,293,51.0306,8.8146,Burgwald-Bottendorf                 ,Hessen                
-67,119,50.09,8.7862,Offenbach-Wetterpark                ,Hessen                
-68,237,49.2943,8.9053,Waibstadt                           ,Baden-Württemberg     
-69,169,49.2447,8.8787,Sinsheim                            ,Baden-Württemberg     
-70,518,48.3752,8.98,Hechingen                           ,Baden-Württemberg     
-71,155,49.9195,8.9672,Schaafheim-Schlierbach              ,Hessen                
-72,251,48.9569,9.0711,Sachsenheim                         ,Baden-Württemberg     
-73,340,50.9656,9.05,Gilserberg-Moischeid                ,Hessen                
-74,11,53.4451,9.139,Bremervörde                         ,Niedersachsen         
-75,265,50.4925,9.1226,Schotten                            ,Hessen                
-76,25,52.6711,9.2229,Nienburg                            ,Niedersachsen         
-77,224,48.7896,9.2167,Stuttgart (Neckartal)               ,Baden-Württemberg     
-78,18,54.2992,9.3162,Erfde                               ,Schleswig-Holstein    
-79,300,50.7446,9.345,Alsfeld-Eifa                        ,Hessen                
-80,194,49.7636,9.4063,Freudenberg/Main-Boxtal             ,Baden-Württemberg     
-81,317,51.2835,9.359,Schauenburg-Elgershausen            ,Hessen                
-82,394,47.6454,9.4795,Friedrichshafen                     ,Baden-Württemberg     
-83,755,48.3851,9.4837,Münsingen-Apfelstetten              ,Baden-Württemberg     
-84,43,54.5275,9.5487,Schleswig                           ,Schleswig-Holstein    
-85,20,53.9897,9.5697,Itzehoe                             ,Schleswig-Holstein    
-86,441,47.8062,9.6206,"Weingarten, Kr. Ravensburg          ",Baden-Württemberg     
-87,288,50.0132,9.654,Lohr/Main-Halsbach                  ,Bayern                
-88,385,49.3328,9.704,Ingelfingen-Stachenhausen           ,Baden-Württemberg     
-89,489,48.917,9.6871,Kaisersbach-Cronhütte               ,Baden-Württemberg     
-90,677,47.818,9.797,Wolfegg                             ,Baden-Württemberg     
-91,241,51.7209,9.8351,Moringen-Lutterbeck                 ,Niedersachsen         
-92,11,53.7331,9.8776,Quickborn                           ,Schleswig-Holstein    
-93,217,49.9694,9.9114,Arnstein-Müdesheim                  ,Bayern                
-94,567,48.3837,9.9524,Ulm                                 ,Baden-Württemberg     
-95,167,51.5002,9.9507,Göttingen                           ,Niedersachsen         
-96,45,52.5959,10.0296,Celle                               ,Niedersachsen         
-97,395,50.639,10.0228,Tann/Rhön                           ,Hessen                
-98,522,48.6849,10.142,Heidenheim/Brenz                    ,Baden-Württemberg     
-99,463,48.9895,10.1312,Ellwangen-Rindelbach                ,Baden-Württemberg     
-100,318,49.5679,10.1969,Gollhofen                           ,Bayern                
-101,193,49.7363,10.1781,Kitzingen                           ,Bayern                
-102,0,54.4996,10.2737,Leuchtturm Kiel                     ,Schleswig-Holstein    
-103,305,50.0579,10.2972,Schonungen-Mainberg                 ,Bayern                
-104,475,49.1623,10.3661,Feuchtwangen-Heilbronn              ,Bayern                
-105,450,50.5611,10.3771,Meiningen                           ,Thüringen             
-106,81,52.2915,10.4464,Braunschweig                        ,Niedersachsen         
-107,913,50.8519,10.4665,Grosser Inselsberg                  ,Thüringen             
-108,50,52.9414,10.5289,Uelzen                              ,Niedersachsen         
-109,352,50.8963,10.5483,Waltershausen                       ,Thüringen             
-110,607,51.7234,10.6021,Braunlage                           ,Niedersachsen         
-111,360,49.4875,10.6277,Markt Erlbach-Hagenhofen            ,Bayern                
-112,45,53.3911,10.6878,Boizenburg                          ,Mecklenburg-Vorpommern
-114,233,51.8454,10.7686,Wernigerode                         ,Sachsen-Anhalt        
-115,413,49.1273,10.7448,Gunzenhausen/Altmühlsee             ,Bayern                
-116,2,54.0893,10.8773,Pelzerhaken                         ,Schleswig-Holstein    
-117,429,50.7335,10.8815,Martinroda                          ,Thüringen             
-118,109,52.2467,10.9592,Helmstedt-Emmerstedt                ,Niedersachsen         
-119,240,49.8743,10.9206,Bamberg                             ,Bayern                
-120,977,47.8009,11.0108,Hohenpeißenberg                     ,Bayern                
-121,268,49.6497,11.0075,Möhrendorf-Kleinseebach             ,Bayern                
-122,386,49.2162,11.1035,Roth                                ,Bayern                
-123,845,50.5003,11.1345,Neuhaus am Rennweg                  ,Thüringen             
-124,15,54.0027,11.1908,Boltenhagen                         ,Mecklenburg-Vorpommern
-125,626,50.3746,11.1828,Sonneberg-Neufang                   ,Thüringen             
-126,984,47.4779,11.2653,Mittenwald-Buckelwiesen             ,Bayern                
-127,384,48.8777,11.2349,Eichstätt-Landershofen              ,Bayern                
-128,310,50.2524,11.3209,Kronach                             ,Bayern                
-130,47,52.5129,11.3942,Gardelegen                          ,Sachsen-Anhalt        
-132,107,51.7259,11.5109,Aschersleben-Mehringen              ,Sachsen-Anhalt        
-133,350,49.9666,11.5198,Heinersreuth-Vollhof                ,Bayern                
-134,79,52.1029,11.5827,Magdeburg                           ,Sachsen-Anhalt        
-135,515,48.1632,11.5429,München-Stadt                       ,Bayern                
-136,549,49.151,11.6896,Parsberg/Oberpfalz-Eglwang          ,Bayern                
-138,21,52.8911,11.7297,Seehausen                           ,Sachsen-Anhalt        
-139,356,50.7281,11.7838,Schmieritz-Weltwitz                 ,Thüringen             
-140,655,49.9807,11.8376,Fichtelberg/Oberfranken-Hüttstadl   ,Bayern                
-141,452,49.8174,11.8638,Neustadt am Kulm-Filchendorf        ,Bayern                
-142,415,49.4283,11.9016,Kümmersbruck                        ,Bayern                
-143,244,51.0872,11.9293,Osterfeld                           ,Sachsen-Anhalt        
-144,592,48.1003,11.9872,Ebersberg-Halbing                   ,Bayern                
-145,102,51.4831,11.9671,Halle (Stadt)                       ,Sachsen-Anhalt        
-146,5,54.1803,12.0808,Rostock-Warnemünde                  ,Mecklenburg-Vorpommern
-147,389,50.661,12.0756,Langenwetzendorf-Göttendorf         ,Thüringen             
-148,35,52.3875,12.1602,Genthin                             ,Sachsen-Anhalt        
-149,387,50.4818,12.13,Plauen                              ,Sachsen               
-150,131,51.4347,12.2396,Leipzig/Halle                       ,Sachsen               
-151,390,48.7548,12.2118,Mallersdorf-Pfaffenberg-Oberlindhart,Bayern                
-152,516,48.0197,12.2925,Amerang-Pfaffing                    ,Bayern                
-153,196,50.9771,12.3419,Starkenberg-Tegkwitz                ,Thüringen             
-154,40,52.9362,12.4093,Kyritz                              ,Brandenburg           
-155,349,50.6879,12.4329,Lichtentanne                        ,Sachsen               
-156,686,47.6754,12.4698,Reit im Winkl                       ,Bayern                
-157,596,49.4521,12.4365,Oberviechtach                       ,Bayern                
-158,551,47.8843,12.5404,Chieming                            ,Bayern                
-159,351,48.6595,12.5388,Gottfrieding                        ,Bayern                
-160,105,51.8891,12.6446,Wittenberg                          ,Sachsen-Anhalt        
-161,895,50.4313,12.6114,Carlsfeld                           ,Sachsen               
-162,393,50.5908,12.7139,Aue                                 ,Sachsen               
-163,499,49.391,12.6838,Waldmünchen                         ,Bayern                
-164,38,52.9037,12.8071,Neuruppin                           ,Brandenburg           
-166,90,51.5185,12.9065,Klitzschen bei Torgau               ,Sachsen               
-167,416,50.7913,12.872,Chemnitz                            ,Sachsen               
-168,213,50.4283,12.9536,Fichtelberg                         ,Sachsen               
-169,296,51.0881,12.9326,Geringswalde-Altgeringswalde        ,Sachsen               
-170,17,54.2484,13.0419,Steinhagen-Negast                   ,Mecklenburg-Vorpommern
-171,81,52.3812,13.0622,Potsdam                             ,Brandenburg           
-172,1,54.575,13.1044,Hiddensee-Vitte                     ,Mecklenburg-Vorpommern
-173,150,51.296,13.0928,Oschatz                             ,Sachsen               
-174,81,53.5468,13.1914,Neubrandenburg                      ,Mecklenburg-Vorpommern
-175,80,51.7657,13.1666,Holzdorf-Bernsdorf                  ,Brandenburg           
-176,68,53.5998,13.3039,Trollenhagen                        ,Mecklenburg-Vorpommern
-177,51,52.4537,13.3017,Berlin-Dahlem (FU)                  ,Berlin                
-178,2,54.0967,13.4056,Greifswald                          ,Mecklenburg-Vorpommern
-179,36,52.5198,13.4057,Berlin-Alexanderplatz               ,Berlin                
-180,36,52.5,13.4667,Berlin-Ostkreuz                     ,Berlin                
-182,60,52.631,13.5021,Berlin-Buch                         ,Berlin                
-183,61,52.5447,13.5598,Berlin-Marzahn                      ,Berlin                
-184,118,53.4618,13.6099,Woldegk                             ,Mecklenburg-Vorpommern
-185,97,51.6451,13.5747,Doberlug-Kirchhain                  ,Brandenburg           
-186,359,50.9116,13.7087,Dippoldiswalde-Reinberg             ,Sachsen               
-187,33,52.404,13.7309,Berlin-Kaniswall                    ,Berlin                
-188,228,51.1278,13.7543,Dresden-Klotzsche                   ,Sachsen               
-189,119,51.0249,13.775,Dresden-Strehlen                    ,Sachsen               
-190,112,51.0221,13.847,Dresden-Hosterwitz                  ,Sachsen               
-191,57,51.9267,13.8797,Lübben-Blumenfelde                  ,Brandenburg           
-192,12,54.2437,13.9102,Greifswalder Oie                    ,Mecklenburg-Vorpommern
-194,54,53.0316,13.9908,Angermünde                          ,Brandenburg           
-196,98,52.2085,14.118,Lindenberg                          ,Brandenburg           
-197,63,52.5176,14.1232,Müncheberg                          ,Brandenburg           
-198,321,50.9383,14.2094,Lichtenhain-Mittelndorf             ,Sachsen               
-200,68,51.7667,14.2833,Cottbus (Flugplatz)                 ,Brandenburg           
-202,69,51.7759,14.3168,Cottbus                             ,Brandenburg           
-204,291,51.0594,14.4266,Sohland/Spree                       ,Sachsen               
-206,234,51.1604,14.5042,"Kubschütz, Kr. Bautzen              ",Sachsen               
-208,12,52.5468,14.5453,Manschnow                           ,Brandenburg           
-210,127,51.566,14.7008,"Muskau, Bad                         ",Sachsen               
-212,271,50.8992,14.7456,Bertsdorf-Hörnitz                   ,Sachsen               
-213,344,51.0167,14.75,Herrnhut                            ,Sachsen               
-214,239,51.1621,14.9506,Görlitz                             ,Sachsen               
-0,806,47.3984,10.2759,Oberstdorf                          ,Bayern                
-2,719,47.483,11.0621,Garmisch-Partenkirchen              ,Bayern                
-4,728,47.5938,7.9597,Jungholz (Kühmoos)                  ,Baden-Württemberg     
-6,742,47.6652,11.0805,"Kohlgrub, Bad (Rosshof)             ",Bayern                
-7,550,47.6344,13.0109,Berchtesgaden (KKst)                ,Bayern                
-8,461,47.6845,9.4409,Friedrichshafen-Unterraderach       ,Baden-Württemberg     
-9,428,47.6952,9.1307,Konstanz                            ,Baden-Württemberg     
-10,672,47.7955,10.0325,Leutkirch-Herlazhofen               ,Baden-Württemberg     
-12,716,47.8652,10.6007,Kaufbeuren                          ,Bayern                
-14,673,47.9242,8.6474,Geisingen                           ,Baden-Württemberg     
-15,201,47.91,7.5838,Bremgarten (Fessenheim)             ,Baden-Württemberg     
-16,614,47.9821,10.1384,Memmingen                           ,Bayern                
-17,274,48.0006,7.845,Freiburg-Mitte                      ,Baden-Württemberg     
-18,581,48.0719,9.1943,Sigmaringen-Laiz                    ,Baden-Württemberg     
-19,719,48.0453,8.4608,Villingen-Schwenningen              ,Baden-Württemberg     
-20,599,48.1252,9.7639,Warthausen-Birkenhard               ,Baden-Württemberg     
-21,529,48.1369,11.7094,München-Riem                        ,Bayern                
-22,531,48.207,11.2035,Maisach-Galgen                      ,Bayern                
-23,550,48.1877,11.2206,Puch                                ,Bayern                
-24,520,48.251,10.4163,Krumbach-Edenhausen                 ,Bayern                
-25,358,48.2718,13.0273,Simbach/Inn                         ,Bayern                
-26,444,48.3667,11.8,Schwaigermoos                       ,Bayern                
-27,446,48.3477,11.8134,München-Flughafen                   ,Bayern                
-29,477,48.4024,11.6946,Weihenstephan-Dürnast               ,Bayern                
-30,593,48.4418,9.9216,Ulm-Mähringen                       ,Baden-Württemberg     
-31,360,48.4704,8.9687,Rottenburg-Kiebingen                ,Baden-Württemberg     
-32,420,48.5701,10.4985,Dillingen/Donau                     ,Bayern                
-33,354,48.5377,9.2734,Metzingen                           ,Baden-Württemberg     
-34,374,48.6183,13.062,Aldersbach-Kramersepp               ,Bayern                
-37,374,48.6765,11.2961,Karlshuld                           ,Bayern                
-38,435,48.7374,10.7393,Donauwörth-Osterweiler              ,Bayern                
-39,365,48.7654,12.5121,Leiblfing                           ,Bayern                
-40,435,48.8253,10.5067,Reimlingen                          ,Bayern                
-45,243,48.9721,8.8735,Mühlacker                           ,Baden-Württemberg     
-46,439,49.0115,10.9308,Weißenburg-Emetzheim                ,Bayern                
-47,615,49.028,13.2385,Zwiesel                             ,Bayern                
-48,585,49.1088,12.8231,Prackenbach-Neuhäusl                ,Bayern                
-51,226,49.1661,8.8483,Eppingen-Elsenz                     ,Baden-Württemberg     
-53,454,49.2249,10.6085,Weidenbach-Weiherschneidbach        ,Bayern                
-55,413,49.2964,10.5751,Ansbach                             ,Bayern                
-56,561,49.3981,8.7251,Königstuhl                          ,Baden-Württemberg     
-57,415,49.3849,10.1732,Rothenburg ob der Tauber            ,Bayern                
-60,340,49.5182,9.3213,"Buchen, Kr. Neckar-Odenwald         ",Baden-Württemberg     
-61,415,49.507,6.5215,Mettlach-Orscholz (Kurort)          ,Saarland              
-62,455,49.5617,8.9673,Oberzent-Beerfelden                 ,Hessen                
-63,284,49.5653,10.9729,Erlangen-Frauenaurach               ,Bayern                
-65,506,49.664,11.2239,Gräfenberg-Kasberg                  ,Bayern                
-66,215,49.7273,8.1164,Alzey                               ,Rheinland-Pfalz       
-68,239,49.7644,9.253,Röllbach                            ,Bayern                
-69,302,49.7672,7.3356,Niederwörresbach                    ,Rheinland-Pfalz       
-70,169,49.8697,8.6796,Darmstadt-Botanischer Garten        ,Hessen                
-72,497,49.9463,7.2645,Hahn                                ,Rheinland-Pfalz       
-74,340,50.0083,9.4238,Neuhütten/Spessart                  ,Bayern                
-75,111,49.9859,7.9548,Geisenheim                          ,Hessen                
-76,108,50.0643,8.993,Kahl/Main                           ,Bayern                
-78,103,50.1214,8.6604,Frankfurt/Main (Feldbergstr.)       ,Hessen                
-79,121,50.1269,8.6694,Frankfurt/Main-Westend              ,Hessen                
-80,822,50.2218,8.4469,Kleiner Feldberg/Taunus             ,Hessen                
-81,380,50.1855,8.4698,Königstein/Taunus                   ,Hessen                
-82,258,50.2667,9.1854,Gründau-Breitenborn                 ,Hessen                
-83,558,50.2705,12.2742,"Elster, Bad-Sohl                    ",Sachsen               
-85,518,50.3518,10.0034,Sandberg                            ,Bayern                
-86,397,50.4167,10.8156,Veilsdorf                           ,Thüringen             
-87,127,50.4135,7.5886,Bendorf                             ,Rheinland-Pfalz       
-88,314,50.4538,10.2211,Ostheim v.d. Rhön                   ,Bayern                
-90,747,50.5309,10.0479,Birx/Rhön                           ,Thüringen             
-92,277,50.6441,11.1936,Schwarzburg                         ,Thüringen             
-93,487,50.6266,10.1455,Kaltennordheim                      ,Thüringen             
-94,938,50.6545,10.7696,Schmücke                            ,Thüringen             
-95,350,50.6743,6.424,Nideggen-Schmidt                    ,Nordrhein-Westfalen   
-98,349,50.8119,9.128,Wahlen                              ,Hessen                
-100,304,50.9075,11.2665,"Berka, Bad (Flugplatz)              ",Thüringen             
-104,264,51.0314,12.1495,Zeitz                               ,Sachsen-Anhalt        
-106,246,51.1044,11.7112,Naumburg/Saale-Kreipitzsch          ,Sachsen-Anhalt        
-107,172,51.119,9.2799,Fritzlar/Eder                       ,Hessen                
-108,156,51.2041,10.0138,Eschwege                            ,Hessen                
-110,387,51.2452,7.6425,Lüdenscheid                         ,Nordrhein-Westfalen   
-111,134,51.2256,7.1052,Wuppertal-Buchenhofen               ,Nordrhein-Westfalen   
-113,231,51.2963,9.4424,Kassel                              ,Hessen                
-114,164,51.3744,11.292,Artern                              ,Thüringen             
-115,117,51.3909,11.8786,"Lauchstädt, Bad                     ",Sachsen-Anhalt        
-120,293,51.5909,10.5691,"Sachsa, Bad                         ",Niedersachsen         
-121,80,51.5833,13.0,Torgau                              ,Sachsen               
-122,504,51.6646,10.8811,Oberharz am Brocken-Stiege          ,Sachsen-Anhalt        
-123,404,51.652,11.1366,Harzgerode                          ,Sachsen-Anhalt        
-126,135,51.7986,10.6183,Brocken                             ,Sachsen-Anhalt        
-128,104,51.8418,8.0607,Ennigerloh-Ostenfelde               ,Nordrhein-Westfalen   
-130,189,51.904,10.1885,Seesen                              ,Niedersachsen         
-132,112,52.0304,10.9626,Huy-Pabstorf                        ,Sachsen-Anhalt        
-133,39,52.0192,14.7254,Coschen                             ,Brandenburg           
-135,46,52.0813,6.9409,Ahaus                               ,Nordrhein-Westfalen   
-136,159,52.1601,11.1759,Ummendorf                           ,Sachsen-Anhalt        
-138,80,52.2174,12.1641,Möckern-Drewitz                     ,Sachsen-Anhalt        
-140,68,52.2817,9.089,Bückeburg                           ,Niedersachsen         
-142,110,52.3199,9.43,Barsinghausen-Hohenbostel           ,Niedersachsen         
-143,65,52.3397,14.508,Frankfurt/Oder                      ,Brandenburg           
-145,82,52.3962,10.6892,Wolfsburg (Südwest)                 ,Niedersachsen         
-150,40,52.6198,12.7867,Berge                               ,Brandenburg           
-152,22,52.7198,7.7472,Löningen                            ,Niedersachsen         
-153,19,52.7155,7.3176,Meppen                              ,Niedersachsen         
-154,83,52.7461,13.8427,Heckelberg                          ,Brandenburg           
-156,69,52.8152,9.9248,Bergen                              ,Niedersachsen         
-157,29,52.8568,11.1319,Salzwedel                           ,Sachsen-Anhalt        
-158,30,52.8761,11.5042,Arendsee                            ,Sachsen-Anhalt        
-160,16,52.9724,11.1374,Lüchow                              ,Niedersachsen         
-161,8,52.9542,7.3197,Dörpen                              ,Niedersachsen         
-162,24,53.0333,11.8,Weisen bei Wittenberge              ,Sachsen-Anhalt        
-164,20,53.1007,11.4864,Lenzen/Elbe                         ,Brandenburg           
-165,78,53.102,13.0421,Stechlin-Menz                       ,Brandenburg           
-166,11,53.1763,8.1824,Oldenburg                           ,Niedersachsen         
-168,7,53.2758,8.9857,Worpswede-Hüttenbusch               ,Niedersachsen         
-170,115,53.3176,13.4175,Feldberg/Mecklenburg                ,Mecklenburg-Vorpommern
-171,81,53.3222,11.9321,Marnitz                             ,Mecklenburg-Vorpommern
-173,52,53.3837,14.3728,Grambow-Schwennenz                  ,Mecklenburg-Vorpommern
-174,4,53.4776,9.8957,Hamburg-Neuwiedenthal               ,Hamburg               
-176,7,53.5332,8.5761,Bremerhaven                         ,Bremen                
-177,6,53.5333,8.1667,Wilhelmshaven (Flugplatz)           ,Niedersachsen         
-178,59,53.6058,12.1034,Goldberg                            ,Mecklenburg-Vorpommern
-180,11,53.6332,9.9881,Hamburg-Fuhlsbüttel                 ,Hamburg               
-181,59,53.6424,11.3871,Schwerin                            ,Mecklenburg-Vorpommern
-183,1,53.7445,14.0698,Ueckermünde                         ,Mecklenburg-Vorpommern
-184,15,53.8025,10.6989,Lübeck-Blankensee                   ,Schleswig-Holstein    
-185,16,53.8178,12.0645,Gülzow-Prüzen                       ,Mecklenburg-Vorpommern
-186,15,53.8773,10.6915,Lübeck                              ,Schleswig-Holstein    
-187,0,53.8633,8.1275,Leuchtturm Alte Weser               ,Niedersachsen         
-188,33,53.9224,10.2267,Wittenborn                          ,Schleswig-Holstein    
-189,41,53.9156,12.279,Laage-Kronskamp                     ,Mecklenburg-Vorpommern
-190,17,54.0188,9.9255,Padenstedt (Pony-Park)              ,Schleswig-Holstein    
-192,10,54.0654,12.7655,Tribsees                            ,Mecklenburg-Vorpommern
-194,4,54.175,7.892,Helgoland                           ,Schleswig-Holstein    
-200,28,54.3776,10.1424,Kiel-Holtenau                       ,Schleswig-Holstein    
-201,17,54.3378,10.0929,Kiel-Kronshagen                     ,Schleswig-Holstein    
-202,21,54.457,9.5203,Schleswig-Jagel                     ,Schleswig-Holstein    
-208,1,54.641,10.0238,Schönhagen (Ostseebad)              ,Schleswig-Holstein    
-209,18,54.6282,9.3649,Eggebek                             ,Schleswig-Holstein    
-210,40,54.6654,9.805,Wagersrott                          ,Schleswig-Holstein    
-211,42,54.6791,13.4344,Arkona                              ,Mecklenburg-Vorpommern
-212,7,54.7903,8.9514,Leck                                ,Schleswig-Holstein    
-214,12,54.8273,9.5058,Glücksburg-Meierwik                 ,Schleswig-Holstein    
+id,hoehe,geobreite,geolaenge,stationsname,bundesland
+3,202,50.7827,6.0941,Aachen                              ,Nordrhein-Westfalen   
+71,759,48.2156,8.9784,Albstadt-Badkap                     ,Baden-Württemberg     
+73,374,48.6183,13.062,Aldersbach-Kramersepp               ,Bayern                
+96,50,52.9437,12.8518,Neuruppin-Alt Ruppin                ,Brandenburg           
+131,296,51.0881,12.9326,Geringswalde-Altgeringswalde        ,Sachsen               
+154,516,48.0197,12.2925,Amerang-Pfaffing                    ,Bayern                
+164,54,53.0316,13.9908,Angermünde                          ,Brandenburg           
+167,11,53.8409,13.6854,Anklam                              ,Mecklenburg-Vorpommern
+175,413,49.2964,10.5751,Ansbach                             ,Bayern                
+181,30,52.8761,11.5042,Arendsee                            ,Sachsen-Anhalt        
+183,42,54.6791,13.4344,Arkona                              ,Mecklenburg-Vorpommern
+191,217,49.9694,9.9114,Arnstein-Müdesheim                  ,Bayern                
+198,164,51.3744,11.292,Artern                              ,Thüringen             
+222,393,50.5908,12.7139,Aue                                 ,Sachsen               
+259,275,47.8064,7.6387,Müllheim                            ,Baden-Württemberg     
+284,282,49.88,10.88,Bamberg (Sternwarte)                ,Bayern                
+314,234,51.1604,14.5042,"Kubschütz, Kr. Bautzen              ",Sachsen               
+326,120,51.7204,8.0577,Beckum-Unterberg                    ,Nordrhein-Westfalen   
+348,127,50.4135,7.5886,Bendorf                             ,Rheinland-Pfalz       
+350,540,51.6715,10.7268,Benneckenstein                      ,Sachsen-Anhalt        
+368,69,52.8152,9.9248,Bergen                              ,Niedersachsen         
+379,304,50.9075,11.2665,"Berka, Bad (Flugplatz)              ",Thüringen             
+399,36,52.5198,13.4057,Berlin-Alexanderplatz               ,Berlin                
+400,60,52.631,13.5021,Berlin-Buch                         ,Berlin                
+403,51,52.4537,13.3017,Berlin-Dahlem (FU)                  ,Berlin                
+420,61,52.5447,13.5598,Berlin-Marzahn                      ,Berlin                
+424,36,52.5,13.4667,Berlin-Ostkreuz                     ,Berlin                
+433,48,52.4676,13.402,Berlin-Tempelhof                    ,Berlin                
+445,85,51.8218,11.711,Bernburg/Saale (Nord)               ,Sachsen-Anhalt        
+460,362,49.2641,6.6868,Berus                               ,Saarland              
+555,110,51.5026,7.2289,Bochum                              ,Nordrhein-Westfalen   
+596,15,54.0027,11.1908,Boltenhagen                         ,Mecklenburg-Vorpommern
+617,47,51.873,6.8863,Borken in Westfalen                 ,Nordrhein-Westfalen   
+656,607,51.7234,10.6021,Braunlage                           ,Niedersachsen         
+662,81,52.2915,10.4464,Braunschweig                        ,Niedersachsen         
+691,4,53.0451,8.7981,Bremen                              ,Bremen                
+701,7,53.5332,8.5761,Bremerhaven                         ,Bremen                
+704,11,53.4451,9.139,Bremervörde                         ,Niedersachsen         
+722,135,51.7986,10.6183,Brocken                             ,Sachsen-Anhalt        
+755,340,49.5182,9.3213,"Buchen, Kr. Neckar-Odenwald         ",Baden-Württemberg     
+757,445,47.9625,7.9983,Buchenbach                          ,Baden-Württemberg     
+760,83,53.3629,9.9435,Rosengarten-Klecken                 ,Niedersachsen         
+769,68,52.2817,9.089,Bückeburg                           ,Niedersachsen         
+840,895,50.4313,12.6114,Carlsfeld                           ,Sachsen               
+850,45,52.5959,10.0296,Celle                               ,Niedersachsen         
+856,551,47.8843,12.5404,Chieming                            ,Bayern                
+876,314,51.304,13.0096,Collmberg                           ,Sachsen               
+879,68,51.7667,14.2833,Cottbus (Flugplatz)                 ,Brandenburg           
+891,5,53.8713,8.706,Cuxhaven                            ,Niedersachsen         
+953,481,49.7619,7.0542,Deuselbach                          ,Rheinland-Pfalz       
+954,0,54.1796,7.4587,UFS Deutsche Bucht                  ,Hamburg               
+963,38,52.5881,8.3424,Diepholz                            ,Niedersachsen         
+991,359,50.9116,13.7087,Dippoldiswalde-Reinberg             ,Sachsen               
+1048,228,51.1278,13.7543,Dresden-Klotzsche                   ,Sachsen               
+1052,80,52.2174,12.1641,Möckern-Drewitz                     ,Sachsen-Anhalt        
+1072,107,49.4719,8.1929,"Dürkheim, Bad                       ",Rheinland-Pfalz       
+1103,592,48.1003,11.9872,Ebersberg-Halbing                   ,Bayern                
+1107,346,49.852,10.4991,Ebrach                              ,Bayern                
+1130,18,54.6282,9.3649,Eggebek                             ,Schleswig-Holstein    
+1200,3,54.0691,9.0105,Elpersbüttel                        ,Schleswig-Holstein    
+1214,431,48.2012,8.1088,Elzach-Fisnacht                     ,Baden-Württemberg     
+1221,0,53.3707,7.2236,Emden-Wolthusen                     ,Niedersachsen         
+1224,201,48.1378,7.8351,Emmendingen-Mundingen               ,Baden-Württemberg     
+1255,226,49.1661,8.8483,Eppingen-Elsenz                     ,Baden-Württemberg     
+1262,446,48.3477,11.8134,München-Flughafen                   ,Bayern                
+1266,18,54.2992,9.3162,Erfde                               ,Schleswig-Holstein    
+1281,284,49.5653,10.9729,Erlangen-Frauenaurach               ,Bayern                
+1300,351,51.254,8.1565,Eslohe                              ,Nordrhein-Westfalen   
+1327,147,50.7119,6.7905,Weilerswist-Lommersum               ,Nordrhein-Westfalen   
+1339,76,52.9157,10.1885,Faßberg                             ,Niedersachsen         
+1341,0,54.6,11.15,Fehmarnbelt                         ,Schleswig-Holstein    
+1421,125,50.1474,8.6746,Frankfurt/Main (Stadt)              ,Hessen                
+1425,103,50.1214,8.6604,Frankfurt/Main (Feldbergstr.)       ,Hessen                
+1426,65,52.3397,14.508,Frankfurt/Oder                      ,Brandenburg           
+1451,2,53.8277,9.2493,Freiburg/Elbe                       ,Niedersachsen         
+1468,797,48.4538,8.409,Freudenstadt                        ,Baden-Württemberg     
+1544,47,52.5129,11.3942,Gardelegen                          ,Sachsen-Anhalt        
+1550,719,47.483,11.0621,Garmisch-Partenkirchen              ,Bayern                
+1572,80,50.9593,6.0392,Geilenkirchen-Neutevern             ,Nordrhein-Westfalen   
+1584,673,47.9242,8.6474,Geisingen                           ,Baden-Württemberg     
+1587,536,48.9481,11.4289,Gelbelsee                           ,Bayern                
+1605,35,52.3875,12.1602,Genthin                             ,Sachsen-Anhalt        
+1639,203,50.6017,8.6439,Gießen/Wettenberg                   ,Hessen                
+1645,340,50.9656,9.05,Gilserberg-Moischeid                ,Hessen                
+1666,12,54.8273,9.5058,Glücksburg-Meierwik                 ,Schleswig-Holstein    
+1684,239,51.1621,14.9506,Görlitz                             ,Sachsen               
+1721,506,49.664,11.2239,Gräfenberg-Kasberg                  ,Bayern                
+1735,628,48.7894,13.629,Grainet-Rehberg                     ,Bayern                
+1736,26,53.5731,10.6797,Grambek                             ,Schleswig-Holstein    
+1757,2,54.0967,13.4056,Greifswald                          ,Mecklenburg-Vorpommern
+1759,12,54.2437,13.9102,Greifswalder Oie                    ,Mecklenburg-Vorpommern
+1792,27,52.7553,7.4815,Groß Berßen                         ,Niedersachsen         
+1832,436,49.1129,13.1338,Großer Arber                        ,Bayern                
+1833,307,49.0851,13.2801,Grosser Falkenstein                 ,Bayern                
+1886,444,48.4878,10.2608,Günzburg                            ,Bayern                
+1892,72,51.9298,8.3005,Gütersloh (Flugplatz)               ,Nordrhein-Westfalen   
+1964,328,49.9445,6.3821,Olsdorf                             ,Rheinland-Pfalz       
+1975,11,53.6332,9.9881,Hamburg-Fuhlsbüttel                 ,Hamburg               
+2014,55,52.4644,9.6779,Hannover                            ,Niedersachsen         
+2044,404,51.652,11.1366,Harzgerode                          ,Sachsen-Anhalt        
+2074,518,48.3752,8.98,Hechingen                           ,Baden-Württemberg     
+2081,561,49.3981,8.7251,Königstuhl                          ,Baden-Württemberg     
+2088,522,48.6849,10.142,Heidenheim/Brenz                    ,Baden-Württemberg     
+2158,350,48.8042,8.443,"Herrenalb, Bad                      ",Baden-Württemberg     
+2166,344,51.0167,14.75,Herrnhut                            ,Sachsen               
+2171,272,50.852,9.7377,"Hersfeld, Bad                       ",Hessen                
+2244,8,47.7327,8.1627,Höchenschwand                       ,Baden-Württemberg     
+2261,565,50.3123,11.876,Hof                                 ,Bayern                
+2306,8,54.3194,10.6732,Hohwacht                            ,Schleswig-Holstein    
+2423,712,47.6894,10.0416,Isny                                ,Baden-Württemberg     
+2437,21,54.457,9.5203,Schleswig-Jagel                     ,Schleswig-Holstein    
+2456,7,53.5322,7.8806,Jever                               ,Niedersachsen         
+2477,728,47.5938,7.9597,Jungholz (Kühmoos)                  ,Baden-Württemberg     
+2480,108,50.0643,8.993,Kahl/Main                           ,Bayern                
+2485,489,48.917,9.6871,Kaisersbach-Cronhütte               ,Baden-Württemberg     
+2486,271,49.4262,7.7557,Kaiserslautern                      ,Rheinland-Pfalz       
+2494,31,51.7329,6.2688,Kalkar                              ,Nordrhein-Westfalen   
+2497,505,50.5014,6.5264,Kall-Sistig                         ,Nordrhein-Westfalen   
+2522,112,49.0382,8.3641,Karlsruhe                           ,Baden-Württemberg     
+2565,17,54.3378,10.0929,Kiel-Kronshagen                     ,Schleswig-Holstein    
+2578,14,53.9995,11.4341,Kirchdorf/Poel                      ,Mecklenburg-Vorpommern
+2597,282,50.224,10.0792,"Kissingen, Bad                      ",Bayern                
+2627,128,51.5554,13.8845,Schipkau-Klettwitz                  ,Brandenburg           
+2629,46,51.7612,6.0954,Kleve                               ,Nordrhein-Westfalen   
+2680,289,50.284,10.4456,"Königshofen, Bad                    ",Bayern                
+2693,380,50.1855,8.4698,Königstein/Taunus                   ,Hessen                
+2708,742,47.6652,11.0805,"Kohlgrub, Bad (Rosshof)             ",Bayern                
+2738,776,47.6448,11.7438,Kreuth                              ,Bayern                
+2794,40,52.9362,12.4093,Kyritz                              ,Brandenburg           
+2796,41,53.9156,12.279,Laage-Kronskamp                     ,Mecklenburg-Vorpommern
+2856,91,51.9173,13.0878,Langenlipsdorf                      ,Brandenburg           
+2905,550,48.1849,10.8507,Lechfeld                            ,Bayern                
+2925,356,51.3932,10.3123,Leinefelde                          ,Thüringen             
+2928,138,51.3151,12.4462,Leipzig-Holzhausen                  ,Sachsen               
+2932,131,51.4347,12.2396,Leipzig/Halle                       ,Sachsen               
+2951,20,53.1007,11.4864,Lenzen/Elbe                         ,Brandenburg           
+2961,0,54.4996,10.2737,Leuchtturm Kiel                     ,Schleswig-Holstein    
+2968,43,50.9894,6.9777,Köln-Stammheim                      ,Nordrhein-Westfalen   
+2985,321,50.9383,14.2094,Lichtenhain-Mittelndorf             ,Sachsen               
+3015,98,52.2085,14.118,Lindenberg                          ,Brandenburg           
+3031,92,51.6336,8.3945,Lippstadt-Bökenförde                ,Nordrhein-Westfalen   
+3034,496,50.4505,11.635,"Lobenstein, Bad                     ",Thüringen             
+3042,230,50.5617,8.2386,Löhnberg-Obershausen                ,Hessen                
+3044,22,52.7198,7.7472,Löningen                            ,Niedersachsen         
+3158,12,52.5468,14.5453,Manschnow                           ,Brandenburg           
+3164,187,50.8492,8.7745,"Cölbe, Kr. Marburg-Biedenkopf       ",Hessen                
+3166,639,50.6511,13.1469,Marienberg                          ,Sachsen               
+3196,81,53.3222,11.9321,Marnitz                             ,Mecklenburg-Vorpommern
+3204,429,50.7335,10.8815,Martinroda                          ,Thüringen             
+3226,107,51.7259,11.5109,Aschersleben-Mehringen              ,Sachsen-Anhalt        
+3234,158,51.1294,13.4328,Klipphausen-Garsebach               ,Sachsen               
+3246,181,50.3667,7.3167,Mendig                              ,Rheinland-Pfalz       
+3254,19,52.7155,7.3176,Meppen                              ,Niedersachsen         
+3257,278,49.4797,9.7832,"Mergentheim, Bad                    ",Baden-Württemberg     
+3268,900,48.1694,8.9433,Meßstetten-Appental                 ,Baden-Württemberg     
+3271,314,48.8548,12.9189,Metten                              ,Bayern                
+3278,354,48.5377,9.2734,Metzingen                           ,Baden-Württemberg     
+3287,453,49.7177,9.0997,Michelstadt-Vielbrunn               ,Hessen                
+3319,239,49.7644,9.253,Röllbach                            ,Bayern                
+3321,76,51.1313,6.3608,Mönchengladbach-Hilderath           ,Nordrhein-Westfalen   
+3366,406,48.279,12.5024,Mühldorf                            ,Bayern                
+3376,63,52.5176,14.1232,Müncheberg                          ,Brandenburg           
+3478,81,53.5468,13.1914,Neubrandenburg                      ,Mecklenburg-Vorpommern
+3490,111,50.5346,7.0853,"Neuenahr, Bad-Ahrweiler             ",Rheinland-Pfalz       
+3540,195,50.8446,7.372,Neunkirchen-Seelscheid-Krawinkel    ,Nordrhein-Westfalen   
+3545,236,49.344,7.2297,Neunkirchen-Wellesweiler            ,Saarland              
+3591,350,50.6743,6.424,Nideggen-Schmidt                    ,Nordrhein-Westfalen   
+3603,459,49.3895,9.9666,Niederstetten                       ,Baden-Württemberg     
+3612,25,52.6711,9.2229,Nienburg                            ,Niedersachsen         
+3631,12,53.7123,7.1519,Norderney                           ,Niedersachsen         
+3639,26,53.7647,8.6584,Nordholz-Wanhöden                   ,Niedersachsen         
+3659,627,50.3391,6.9501,Nürburg                             ,Rheinland-Pfalz       
+3667,369,49.4258,11.2539,Nürnberg-Netzstall                  ,Bayern                
+3668,314,49.503,11.0549,Nürnberg                            ,Bayern                
+3730,806,47.3984,10.2759,Oberstdorf                          ,Bayern                
+3734,232,49.128,9.3525,Obersulm-Willsbach                  ,Baden-Württemberg     
+3761,276,49.207,9.5176,Öhringen                            ,Baden-Württemberg     
+3815,95,52.2553,8.0534,Osnabrück                           ,Niedersachsen         
+3836,314,50.4538,10.2211,Ostheim v.d. Rhön                   ,Bayern                
+3875,549,49.151,11.6896,Parsberg/Oberpfalz-Eglwang          ,Bayern                
+3975,522,49.4777,11.5357,Pommelsbrunn-Mittelburg             ,Bayern                
+4024,40,54.3643,13.4771,Putbus                              ,Mecklenburg-Vorpommern
+4039,11,53.7331,9.8776,Quickborn                           ,Schleswig-Holstein    
+4154,345,51.18,7.2505,Remscheid-Lennep                    ,Nordrhein-Westfalen   
+4175,283,47.559,7.7721,Rheinfelden                         ,Baden-Württemberg     
+4177,116,48.9726,8.3301,Rheinstetten                        ,Baden-Württemberg     
+4189,534,48.1479,9.4596,"Altheim, Kreis Biberach             ",Baden-Württemberg     
+4261,442,47.8753,12.128,Rosenheim                           ,Bayern                
+4271,5,54.1803,12.0808,Rostock-Warnemünde                  ,Mecklenburg-Vorpommern
+4280,386,49.2162,11.1035,Roth                                ,Bayern                
+4323,461,49.6468,7.8837,Ruppertsecken                       ,Rheinland-Pfalz       
+4347,293,51.5909,10.5691,"Sachsa, Bad                         ",Niedersachsen         
+4350,339,47.5619,7.9399,"Säckingen, Bad (Bergseestr.)        ",Baden-Württemberg     
+4371,135,52.1042,8.7521,"Salzuflen, Bad                      ",Nordrhein-Westfalen   
+4373,29,52.8568,11.1319,Salzwedel                           ,Sachsen-Anhalt        
+4445,609,51.7658,10.6533,Wernigerode-Schierke                ,Sachsen-Anhalt        
+4466,43,54.5275,9.5487,Schleswig                           ,Schleswig-Holstein    
+4477,993,47.8208,8.186,Schluchsee                          ,Baden-Württemberg     
+4480,230,50.3447,9.5533,Schlüchtern-Herolz                  ,Hessen                
+4485,296,50.725,10.4539,"Schmalkalden, Kurort                ",Thüringen             
+4501,938,50.6545,10.7696,Schmücke                            ,Thüringen             
+4584,444,48.3667,11.8,Schwaigermoos                       ,Bayern                
+4625,59,53.6424,11.3871,Schwerin                            ,Mecklenburg-Vorpommern
+4651,189,51.904,10.1885,Seesen                              ,Niedersachsen         
+4692,229,50.8534,7.9966,Siegen (Kläranlage)                 ,Nordrhein-Westfalen   
+4702,645,48.1,9.25,Sigmaringen (Flugplatz)             ,Baden-Württemberg     
+4719,169,49.2447,8.8787,Sinsheim                            ,Baden-Württemberg     
+4745,75,52.9604,9.793,Soltau                              ,Niedersachsen         
+4857,2,53.5534,9.6097,Mittelnkirchen-Hohenfelde           ,Niedersachsen         
+4933,401,48.7091,9.2147,Stuttgart-Hohenheim                 ,Baden-Württemberg     
+4997,196,50.9771,12.3419,Starkenberg-Tegkwitz                ,Thüringen             
+5014,7,53.2758,8.9857,Worpswede-Hüttenbusch               ,Niedersachsen         
+5068,80,51.5833,13.0,Torgau                              ,Sachsen               
+5097,10,54.0654,12.7655,Tribsees                            ,Mecklenburg-Vorpommern
+5099,132,49.7326,6.6131,Trier-Zewen                         ,Rheinland-Pfalz       
+5109,68,53.5998,13.3039,Trollenhagen                        ,Mecklenburg-Vorpommern
+5142,1,53.7445,14.0698,Ueckermünde                         ,Mecklenburg-Vorpommern
+5158,159,52.1601,11.1759,Ummendorf                           ,Sachsen-Anhalt        
+5229,719,48.0453,8.4608,Villingen-Schwenningen              ,Baden-Württemberg     
+5349,73,53.5196,12.6654,Waren (Müritz)                      ,Mecklenburg-Vorpommern
+5397,440,49.6662,12.1844,Weiden                              ,Bayern                
+5404,477,48.4024,11.6946,Weihenstephan-Dürnast               ,Bayern                
+5419,264,50.9751,11.3076,Weimar                              ,Thüringen             
+5424,328,51.0177,11.3544,Weimar-Schöndorf                    ,Thüringen             
+5440,439,49.0115,10.9308,Weißenburg-Emetzheim                ,Bayern                
+5467,832,47.7035,12.0119,Wendelstein                         ,Bayern                
+5490,233,51.8454,10.7686,Wernigerode                         ,Sachsen-Anhalt        
+5541,263,50.1321,8.3169,Wiesbaden-Auringen                  ,Hessen                
+5640,10,53.5503,7.6672,Wittmundhafen                       ,Niedersachsen         
+5643,68,53.1864,12.4949,Wittstock-Rote Mühle                ,Brandenburg           
+5663,118,53.4618,13.6099,Woldegk                             ,Mecklenburg-Vorpommern
+5664,296,48.2953,8.2391,Wolfach                             ,Baden-Württemberg     
+5692,88,49.6051,8.3659,Worms                               ,Rheinland-Pfalz       
+5717,134,51.2256,7.1052,Wuppertal-Buchenhofen               ,Nordrhein-Westfalen   
+5732,9,54.6928,8.5271,Wrixum/Föhr                         ,Schleswig-Holstein    
+5745,51,52.9664,13.3268,Zehdenick                           ,Brandenburg           
+5750,264,51.0314,12.1495,Zeitz                               ,Sachsen-Anhalt        
+5797,349,50.6879,12.4329,Lichtentanne                        ,Sachsen               
+5800,615,49.028,13.2385,Zwiesel                             ,Bayern                
+5825,40,52.6198,12.7867,Berge                               ,Brandenburg           
+5871,497,49.9463,7.2645,Hahn                                ,Rheinland-Pfalz       
+6109,52,53.3837,14.3728,Grambow-Schwennenz                  ,Mecklenburg-Vorpommern
+6129,291,51.0594,14.4266,Sohland/Spree                       ,Sachsen               
+6170,39,52.0192,14.7254,Coschen                             ,Brandenburg           
+6192,115,49.8083,7.8458,"Münster am Stein, Bad               ",Rheinland-Pfalz       
+6247,307,47.6078,8.1813,Dogern (Leibstadt)                  ,Baden-Württemberg     
+6262,412,48.7695,9.8737,Schwäbisch Gmünd-Weiler             ,Baden-Württemberg     
+6263,445,47.7738,8.8219,Singen                              ,Baden-Württemberg     
+6272,284,50.8426,10.2518,"Salzungen, Bad-Gräfen-Nitzendorf    ",Thüringen             
+6275,327,48.6705,9.4627,Notzingen                           ,Baden-Württemberg     
+6314,306,51.0507,13.3003,Nossen                              ,Sachsen               
+6336,288,50.0132,9.654,Lohr/Main-Halsbach                  ,Bayern                
+6337,59,51.7663,7.5194,Lüdinghausen-Brochtrup              ,Nordrhein-Westfalen   
+6346,531,48.207,11.2035,Maisach-Galgen                      ,Bayern                
+7099,187,52.0111,10.3966,Liebenburg-Othfresen                ,Niedersachsen         
+7106,105,52.0714,8.4565,Bielefeld-Deppendorf                ,Nordrhein-Westfalen   
+7244,62,53.1424,13.0319,Neuglobsow (HM)                     ,Brandenburg           
+7350,585,49.1088,12.8231,Prackenbach-Neuhäusl                ,Bayern                
+7367,144,51.9643,9.8072,Alfeld                              ,Niedersachsen         
+7368,312,51.0007,10.3621,Eisenach                            ,Thüringen             
+7369,475,49.1623,10.3661,Feuchtwangen-Heilbronn              ,Bayern                
+7389,83,52.7461,13.8427,Heckelberg                          ,Brandenburg           
+7393,116,51.4492,14.2533,Hoyerswerda                         ,Sachsen               
+7428,397,50.4167,10.8156,Veilsdorf                           ,Thüringen             
+7431,604,48.013,11.5524,Oberhaching-Laufzorn                ,Bayern                
+13675,75,52.0818,9.4077,Hameln-Hastenbeck                   ,Niedersachsen         
+13710,490,48.5734,12.2576,Landshut-Reithof                    ,Bayern                
+13904,3,55.0,6.3333,Nordseeboje 2                       ,Hamburg               
+13965,619,48.2639,8.8134,Balingen-Bronnhaupten               ,Baden-Württemberg     
+14003,728,47.8619,10.6144,Kaufbeuren (Flugplatz)              ,Bayern                
+15207,317,51.2835,9.359,Schauenburg-Elgershausen            ,Hessen                
+15813,40,52.5126,7.4131,Lingen-Baccum                       ,Niedersachsen         
