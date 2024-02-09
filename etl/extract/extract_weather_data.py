@@ -23,8 +23,8 @@ def download_and_extract_file(url, save_path, extract_to):
 
 ## Example usage
 url = 'https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/air_temperature/recent/stundenwerte_TU_00044_akt.zip'
-save_path = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\stundenwerte_TU_00044_akt.zip"
-extract_to = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\stundenwerte_TU_00044_akt"
+save_path = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\test\stundenwerte_TU_00044_akt.zip"
+extract_to = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\test\stundenwerte_TU_00044_akt"
 
 download_and_extract_file(url, save_path, extract_to)
 
@@ -55,15 +55,15 @@ def download_metadata_and_convert_to_csv(url_meta, save_path_meta, save_path_csv
 
 ### Example usage
 url_meta = 'https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/air_temperature/recent/TU_Stundenwerte_Beschreibung_Stationen.txt'
-save_path_meta = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\TU_Stundenwerte_Beschreibung_Stationen.txt"
-save_path_csv = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\TU_Stundenwerte_Beschreibung_Stationen.csv"
+save_path_meta = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\test\TU_Stundenwerte_Beschreibung_Stationen.txt"
+save_path_csv = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\test\TU_Stundenwerte_Beschreibung_Stationen.csv"
 
 download_metadata_and_convert_to_csv(url_meta, save_path_meta, save_path_csv)
 
 
 # extract air temperature data using download_and_extract_file function and \data\interim\df_sample_stations.csv
 
-## List of filenames
+## create List of filenames
 filename_string_raw ="""
 stundenwerte_TU_00044_akt.zip
 stundenwerte_TU_00073_akt.zip
@@ -577,11 +577,43 @@ filename_list = filename_string_raw.split("\n")
 len(stations_id_list)
 ### drop empty strings
 filename_list = list(filter(None, filename_list))
-
+### identify ids from filenames
+stations_id_list = []
+for i in filename_list:
+    stations_id_list.append(i.split("_")[2])
+### change type to int
+stations_id_list = list(map(int, stations_id_list))
 
 ## list of stations ids from \data\interim\df_sample_stations.csv
 ### load data
 df_sample = pd.read_csv(r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\interim\df_sample_stations.csv", index_col = 0)
+### sort df_sample by index
+df_sample = df_sample.sort_index()
 
-## sort df_sample by id
+## find common ids
+common_ids = list(set(stations_id_list).intersection(df_sample.index.tolist()))
 
+len(stations_id_list)
+len(df_sample)
+len(common_ids)
+
+## make new df_sample with common ids
+df_sample_common = df_sample.loc[common_ids]
+len(df_sample_common)
+
+## plot geolaenge and geobreite as x and y
+df_sample_common.plot.scatter(x = "geolaenge", y = "geobreite") # sample looks good
+
+
+
+## download and extract air temperature data for common ids
+
+### change type of common_ids to string and add leading zeros (5 digits)
+common_ids = list(map(str, common_ids))
+common_ids = [i.zfill(5) for i in common_ids]
+
+for i in common_ids:
+    url = f'https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/air_temperature/recent/stundenwerte_TU_{i}_akt.zip'
+    save_path = fr"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\air_temperature\stundenwerte_TU_{i}_akt.zip"
+    extract_to = fr"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\air_temperature\stundenwerte_TU_{i}_akt"
+    download_and_extract_file(url, save_path, extract_to)
