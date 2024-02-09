@@ -45,7 +45,7 @@ New approach below.
 df = df_meta
 
 # Define the number of bins you want to divide your data into
-num_bins = 170
+num_bins = 70
 
 # Create bins for 'geolaenge' and 'geobreite'
 df['geolaenge_bin'] = pd.cut(df['geolaenge'], bins=num_bins, labels=False)
