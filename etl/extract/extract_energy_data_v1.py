@@ -36,7 +36,7 @@ def fetch_energy_data(api_key, start_period, end_period, domain="10Y1001A1001A83
 
 
 # Example usage
-api_key = "dfaa78db-7916-4daf-86aa-e4718fed8ce8"
+api_key = "API_KEY" # real API key not published on GitHub
 start_period = "202301010000"  # Start of January 2023
 end_period = "202301310000"  # End of January 2023
 
