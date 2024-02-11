@@ -1,17 +1,10 @@
-""" 
-!!!
-Resulting csv file of extract_energy_data_v1 does not contain the expected data.
-NEW APPROACH: Download the yearly csv files manually and read them into a pandas DataFrame.
-!!!
-"""
-
 import pandas as pd
 import numpy as np
 
 path = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\energy\generationperproductiontype_202301010000-202401010000.csv"
 path1 = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\energy\one_day.csv"
 
-# Remove the double quotes and row quotes (only visible when csv file is opened in text editor) from each row and write it to a new file
+# Remove the double quotes and row quotes (only visible when csv file is opened in text editor) from each row and write it to a new file in order to be able to use pd.read_csv
 
 # Read the original file
 with open(path, 'r', encoding='utf-8') as file:
@@ -27,13 +20,16 @@ for line in lines:
     processed_lines.append(processed_line + '\n')  # Add newline character at the end
 
 # Write the processed lines to a new file
-corrected_file_path = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\energy\generationpertype_202301010000-202401010000_readable.csv"
+corrected_file_path = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\energy\generationperproductiontype_202301010000-202401010000_readable.csv"
 with open(corrected_file_path, 'w', encoding='utf-8') as corrected_file:
     corrected_file.writelines(processed_lines)
 
 corrected_file_path
 
-
+df.info()
+df["Solar  - Actual Aggregated [MW]"].describe()
+df["Wind Onshore  - Actual Aggregated [MW]"].describe()
+df["Wind Offshore  - Actual Aggregated [MW]"].describe()
 df = pd.read_csv(corrected_file_path)
 
 df.head(60)
