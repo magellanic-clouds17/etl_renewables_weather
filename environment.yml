@@ -17,5 +17,5 @@ dependencies:
   - requests  # For API requests
   - scikit-learn 
   - ipykernel
-
+  - xmltodict
 
