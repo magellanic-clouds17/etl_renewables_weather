@@ -11,7 +11,7 @@ def fetch_energy_data(api_key, start_period, end_period, domain="10Y1001A1001A83
     # Parameters for the API request (https://transparency.entsoe.eu/content/static_content/Static%20content/web%20api/Guide.html#_complete_parameter_list)
     params = {
         "securityToken": api_key,
-        "documentType": "A74",  # wind and solar generation A74, generation per type A75, Aggregated energy data report A11 (not working for realised data)
+        "documentType": "A74",  # wind and solar generation A74, generation per type A75 (A74 and A75 lead to same data (generation_per_type)), Aggregated energy data report A11 (not working for realised data)
         "processType": "A16",  # Realised data
         "in_Domain": domain,  # EIC Code for Germany 
         "out_Domain": domain,  # EIC Code for Germany 
@@ -38,7 +38,7 @@ def fetch_energy_data(api_key, start_period, end_period, domain="10Y1001A1001A83
 
 
 # Example usage
-api_key = "api-key" # real API key not published on GitHub
+api_key = "api_key" # real API key not published on GitHub
 start_period = "202201010000"  # Start of January 2023
 end_period = "202301010000"  # End of January 2023
 
