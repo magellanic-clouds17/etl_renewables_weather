@@ -11,7 +11,7 @@ def fetch_energy_data(api_key, start_period, end_period, domain="10Y1001A1001A83
     # Parameters for the API request (https://transparency.entsoe.eu/content/static_content/Static%20content/web%20api/Guide.html#_complete_parameter_list)
     params = {
         "securityToken": api_key,
-        "documentType": "A74",  # wind and solar generation A74, generation per type A75 (A74 and A75 lead to same data (generation_per_type)), Aggregated energy data report A11 (not working for realised data)
+        "documentType": "A75",  # wind and solar generation A74, generation per type A75 (A74 and A75 lead to same data (generation_per_type)), Aggregated energy data report A11 (not working for realised data)
         "processType": "A16",  # Realised data
         "in_Domain": domain,  # EIC Code for Germany 
         "out_Domain": domain,  # EIC Code for Germany 
@@ -27,7 +27,7 @@ def fetch_energy_data(api_key, start_period, end_period, domain="10Y1001A1001A83
     
     if response.status_code == 200:
         # Specify the file path to save the XML data
-        file_path = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\energy\solar_wind_generation_20230101_20230131.xml"
+        file_path = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\energy\2015_2019\generation_per_type_20160101_20170101.xml"
         
         # Open the file in write-binary mode and write the response content
         with open(file_path, 'wb') as file:
@@ -38,8 +38,8 @@ def fetch_energy_data(api_key, start_period, end_period, domain="10Y1001A1001A83
 
 
 # Example usage
-api_key = "api_key" # real API key not published on GitHub
-start_period = "202201010000"  # Start of January 2023
-end_period = "202301010000"  # End of January 2023
+api_key = "dfaa78db-7916-4daf-86aa-e4718fed8ce8" # real API key not published on GitHub
+start_period = "201601010000"  # Pattern yyyyMMddHHmm e.g. 201601010000
+end_period = "201701010000"   # Pattern yyyyMMddHHmm e.g. 201701010000
 
 fetch_energy_data(api_key, start_period, end_period)
