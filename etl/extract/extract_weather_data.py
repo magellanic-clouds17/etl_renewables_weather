@@ -61,7 +61,7 @@ def filter_files_for_multiple_ids(file_urls, formatted_ids):
     # Iterate through each station ID in the list
     for station_id in formatted_ids:
         # Define the start pattern for the current station ID
-        start_pattern = f"stundenwerte_TU_{station_id}_"
+        start_pattern = f"stundenwerte_FF_{station_id}_" # must still be manually adjusted for the different weather parameters (Air Temperature (TU), Sun (SD), Wind (FF))
         end_pattern = "_hist.zip"
 
         # Filter URLs for the current station ID and add them to the list
@@ -84,9 +84,9 @@ def retrieve_sample_station_ids(df_sample_path):
     return formatted_ids
 
 # Example usage
-save_path_root = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\weather\sun\historical"
+save_path_root = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\weather\wind\historical" # must be manually adjusted for the different weather parameters)
 extract_to_root = save_path_root
-directory_url = "https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/sun/historical/"
+directory_url = "https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/wind/historical/" # must be manually adjusted for the different weather parameters)
 df_sample_path = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\interim\weather\df_sample_stations.csv"
 formatted_ids = retrieve_sample_station_ids(df_sample_path)
 all_files = list_files(directory_url)
@@ -96,6 +96,5 @@ filtered_urls =[f"{directory_url}{file}" for file in filtered_files]
 
 download_and_extract_weather_data(filtered_urls, save_path_root, extract_to_root)
 
-# filtered_files now contains the URLs of the files you want to download for each station ID in common_ids
 print(filtered_files)
 len(filtered_files)
