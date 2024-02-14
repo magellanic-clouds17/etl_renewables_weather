@@ -36,7 +36,7 @@ df_meta_half.plot.scatter(x='geolaenge', y='geobreite', c='DarkBlue')
 
 
 """
-Not content with the uneven distribution of weather stations. 
+Not content with the uneven spatial distribution of weather stations. 
 New approach below.
 """
 
@@ -44,7 +44,7 @@ New approach below.
 
 df = df_meta
 
-# Define the number of bins you want to divide your data into
+# Define the number of bins for data division
 num_bins = 70
 
 # Create bins for 'geolaenge' and 'geobreite'
