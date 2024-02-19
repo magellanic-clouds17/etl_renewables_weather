@@ -1,4 +1,5 @@
-# etl_renewables_weather
+# ETL Pipeline to enable Forecasting of Renewable Energy Generation in Germany using Weather Data
+
 
 ## Status: Ongoing 🚧
 This project is a work in progress.
