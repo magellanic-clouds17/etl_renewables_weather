@@ -15,4 +15,5 @@ This portfolio project aims to explore the integration and analysis of energy ge
 - **Databases**: MongoDB for unstructured data; MySQL for structured data.
 - **Programming**: Python, with libraries such as pandas for data processing. SQL to interact with the databases.
 
-
+## Locations of Weather Stations
+![image](https://github.com/magellanic-clouds17/etl_renewables_weather/assets/72970703/48d9f95c-334c-4144-adee-68fab9ef6c48)
