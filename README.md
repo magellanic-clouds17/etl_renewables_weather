@@ -1,4 +1,4 @@
-# ETL Pipeline to enable Forecasting of Renewable Energy Generation in Germany using Weather Data
+# ETL Pipeline and Machine Learning Analysis to forecast Renewable Energy Generation in Germany using Weather Data
 
 
 ## Status: Ongoing 🚧
