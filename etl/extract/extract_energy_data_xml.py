@@ -27,7 +27,7 @@ def fetch_energy_data(api_key, start_period, end_period, domain="10Y1001A1001A83
     
     if response.status_code == 200:
         # Specify the file path to save the XML data
-        file_path = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\energy\2015_2019\generation_per_type_20160101_20170101.xml"
+        file_path = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\energy\2015_2019\generation_per_type_20190101_20200101.xml" # must be manually adjusted for the different time periods
         
         # Open the file in write-binary mode and write the response content
         with open(file_path, 'wb') as file:
@@ -39,7 +39,7 @@ def fetch_energy_data(api_key, start_period, end_period, domain="10Y1001A1001A83
 
 # Example usage
 api_key = "dfaa78db-7916-4daf-86aa-e4718fed8ce8" # real API key not published on GitHub
-start_period = "201601010000"  # Pattern yyyyMMddHHmm e.g. 201601010000
-end_period = "201701010000"   # Pattern yyyyMMddHHmm e.g. 201701010000
+start_period = "201901010000"   # Pattern yyyyMMddHHmm e.g. 201601010000 # must be manually adjusted for the different time periods
+end_period = "202001010000"     # Pattern yyyyMMddHHmm e.g. 201701010000 # must be manually adjusted for the different time periods
 
 fetch_energy_data(api_key, start_period, end_period)

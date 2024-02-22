@@ -4,8 +4,8 @@ import pandas as pd
 file_path_list = [r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\interim\energy\2015_2019\generation_per_type_20150101_20160101.csv",
             r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\interim\energy\2015_2019\generation_per_type_20160101_20170101.csv",
             r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\interim\energy\2015_2019\generation_per_type_20170101_20180101.csv",
-             r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\interim\energy\2015_2019\generation_per_type_20180101_20190101.csv",
-             r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\interim\energy\2015_2019\generation_per_type_20190101_20200101.csv"]
+            r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\interim\energy\2015_2019\generation_per_type_20180101_20190101.csv",
+            r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\interim\energy\2015_2019\generation_per_type_20190101_20200101.csv"]
 
 
 def transform_energy_time_frequ(file_path):

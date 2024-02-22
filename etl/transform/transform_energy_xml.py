@@ -2,7 +2,7 @@ import pprint
 import pandas as pd
 import xmltodict
 
-# Isolate the wind and solar generation data from the XML file
+# Isolate the wind and solar generation data from the XML file and save it to a csv file
 ## Function to parse XML and convert to Python dictionary
 def parse_xml_to_dict(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -11,7 +11,7 @@ def parse_xml_to_dict(file_path):
         return dict_data
     
 ## Parse the XML file to a dictionary
-file_path = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\energy\2015_2019\generation_per_type_20150101_20160101.xml"
+file_path = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\energy\2015_2019\generation_per_type_20190101_20200101.xml" # must be manually adjusted for the different time periods
 data_dict = parse_xml_to_dict(file_path)
 
 ## how is the dictionary structured?
@@ -57,8 +57,8 @@ solar_series = pd.Series(solar_list)
 df = pd.DataFrame({'Wind Onshore (MW)': wind_on_series, 'Wind Offshore (MW)': wind_off_series, 'Solar (MW)': solar_series})
 
 ## create a datetime index
-start = '2015-01-01 00:00:00' # must be manually adjusted for the different time periods
-end = '2015-12-31 23:45:00'
+start = '2019-01-01 00:00:00'   # must be manually adjusted for the different time periods
+end = '2019-12-31 23:45:00'     # must be manually adjusted for the different time periods
 index = pd.date_range(start, end, freq='15min')
 len(index)
 df.index = index
@@ -66,6 +66,7 @@ index.dtype
 
 # look at the first 60 rows
 df.head(60)
+df.info()
 
 # save the DataFrame to a csv file
-df.to_csv(r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\interim\energy\2015_2019\generation_per_type_20150101_20160101.csv") # must be manually adjusted for the different time periods
+df.to_csv(r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\interim\energy\2015_2019\generation_per_type_20190101_20200101.csv") # must be manually adjusted for the different time periods

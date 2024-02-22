@@ -13,7 +13,7 @@ def download_and_extract_weather_data(filtered_urls, save_path_root, extract_to_
         save_path = os.path.join(save_path_root, file_name)
         extract_to = os.path.join(extract_to_root, file_name.replace(".zip", ""))
         
-        # Check if save path already exists.
+        # Check if save path already exists
         if os.path.exists(save_path):
             print(f"{file_name} already exists. Skipping...")
             continue
