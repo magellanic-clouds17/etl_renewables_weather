@@ -539,6 +539,7 @@ len(common_ids)
 
 # make new df_sample with common ids
 df_sample_common = df_sample.loc[common_ids]
+
 # Create a map object
 m = folium.Map(location=[51.1657, 10.4515], zoom_start=6)
 
