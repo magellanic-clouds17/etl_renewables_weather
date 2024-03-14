@@ -1,20 +1,39 @@
 import pandas as pd
+import os
 
-"""
-Goal of this script: Transform all txt weather files to csv files and combine them into one csv file based on date time index
-"""
+def csvs_to_df(file_path):
+    df = pd.read_csv(file_path, delimiter=";")
+    df = df.drop(['QN_9', 'RF_TU', 'eor'], axis=1)
+    df['MESS_DATUM'] = pd.to_datetime(df['MESS_DATUM'], format='%Y%m%d%H')
+    df = df.set_index('MESS_DATUM')
+    df = df['2015-01-01':'2019-12-31']
+    return df
+
+def loop_folders(root_folder):
+    dfs = []  # List to store individual DataFrames
+    for subdir, dirs, files in os.walk(root_folder):
+        for file in files:
+            if file.startswith("produkt"):
+                file_path = os.path.join(subdir, file)
+                df = csvs_to_df(file_path)
+                dfs.append(df)
+    
+    # Concatenate all DataFrames
+    combined_df = pd.concat(dfs)
+    
+    # Optional: Sort the DataFrame by index if necessary
+    combined_df.sort_index(inplace=True)
+    
+    return combined_df
+
+# Example usage
+root_folder = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\weather\air_temperature\historical"
+combined_df = loop_folders(root_folder)
+
+# Save the combined DataFrame to a CSV file
+combined_df.to_csv(r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\interim\weather\combined_weather_data.csv")
 
 
-# Load the txt files to a DataFrame
-file_path = r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\raw\weather\air_temperature\historical\stundenwerte_TU_00102_20020101_20221231_hist\produkt_tu_stunde_20020101_20221231_00102.txt"
-df = pd.read_csv(file_path, delimiter=";")
+df = pd.read_csv(r"C:\Users\Latitude\Desktop\data_engineering\etl_renewables_weather\data\interim\weather\combined_weather_data.csv", index_col=0)
 
-# drop columns ['QN_9', 'RF_TU' and 'eor']
-df = df.drop(['QN_9', 'RF_TU', 'eor'], axis=1)
-
-# convert MESS_DATUM column to datetime and set as index. MESS_Datum format is YYYYMMDDHH
-df['MESS_DATUM'] = pd.to_datetime(df['MESS_DATUM'], format='%Y%m%d%H')
-df = df.set_index('MESS_DATUM')
-
-# drop rows outside the time period 2015-2019
-df = df['2015-01-01':'2019-12-31']
+df.head(60)
