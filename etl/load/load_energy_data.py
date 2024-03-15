@@ -1,6 +1,5 @@
 import xmltodict
 from pymongo import MongoClient
-import bson
 import pandas as pd
 
 # convert xml to dict to load into mongodb
@@ -23,5 +22,6 @@ db = client['etl_renewables_weather']
 collection = db['wind_solar_data']
 
 ## Insert the parsed data into MongoDB
-insert_to_mongodb(collection, data_dict)   
+insert_to_mongodb(collection, data_dict)
 collection.insert_one(data_dict)
+

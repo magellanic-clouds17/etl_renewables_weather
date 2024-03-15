@@ -18,8 +18,8 @@ def transform_energy_time_frequ(file_path):
     df['Wind Offshore (MW)'] = pd.to_numeric(df['Wind Offshore (MW)'], errors='coerce')
     df['Solar (MW)'] = pd.to_numeric(df['Solar (MW)'], errors='coerce')
 
-    # Resample data to 1-hour frequency. You can choose the method of aggregation.
-    # Here, I'm using the mean, but you could use sum, max, etc., depending on your needs.
+    # Resample data to 1-hour frequency.
+    # resample the data to 1 hour frequency and take the mean of each hour
     df_resampled = df.resample('1H').mean()
     # round the values to 0 decimal places and convert to int
     df_resampled = df_resampled.round(0)

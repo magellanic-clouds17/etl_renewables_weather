@@ -21,8 +21,8 @@ data_dict['GL_MarketDocument']['TimeSeries'][0].keys()
 
 ### pretty print to better understand the structure
 pp = pprint.PrettyPrinter(indent=4)
-pp.pprint(data_dict['GL_MarketDocument']['TimeSeries'][17])
-
+#pp.pprint(data_dict['GL_MarketDocument']['TimeSeries'][17])
+pp.pprint(data_dict)
 ## Extract the wind and solar generation data quantities to lists
 wind_on_list_dict= data_dict['GL_MarketDocument']['TimeSeries']
 wind_on_list_dict = [item for item in wind_on_list_dict if item.get('MktPSRType', {}).get('psrType') == 'B19']
